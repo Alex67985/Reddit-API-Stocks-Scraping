@@ -1,9 +1,9 @@
 # Reddit-API-Stocks-Scraping
-This is a Reddit-API scraper tool that allows you to scrape subreddit data using the official Reddit API (PRAW) and customize it using a script that can scrape ticker lists and subreddits relevant to a certain ticker.
+This is a Reddit-API scraping repository that allows you to scrape subreddit data using the official Reddit API (PRAW) and customize it using a script that can scrape ticker lists and subreddits relevant to a certain ticker.
 
 ## Features
-- Scrapes subreddit data using the official Reddit API (PRAW).
-- Fairly customizable with scripts that can do the following: 
+- Scraping subreddit data using the official Reddit API (PRAW).
+- Fairly customizable repository with scripts that can do the following: 
     - scrape ticker lists and relevant subreddits
     - scrapes submissions including any tickers **Beta**
     - scrapes submissions by a given ticker
