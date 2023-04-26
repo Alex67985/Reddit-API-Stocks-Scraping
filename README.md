@@ -1,5 +1,5 @@
 # Reddit-API-Stocks-Scraping
-This is a Python Reddit-API scraping repository that allows you to scrape subreddit data and be able to customize the repository using multiple scripts that can scrape ticker lists and subreddits relevant to a certain ticker.
+This is a Python Reddit-API scraping repository that allows you to scrape subreddit data and be able to customize the input data using multiple scripts that can scrape ticker lists and subreddits relevant to a certain ticker.
 ## Important
 Since PRAW is rate limited, it cannot process large amounts of data at once.
 I tried as much as possible to avoid rate limitation with a cooldown within the ``Submissions_Scraping.py``
