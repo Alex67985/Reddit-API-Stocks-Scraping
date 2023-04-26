@@ -4,6 +4,8 @@ This is a Python Reddit-API scraping repository that allows you to scrape subred
 Since PRAW is rate limited, it cannot process large amounts of data at once.
 I tried as much as possible to avoid rate limitation with a cooldown within the ``Submissions_Scraping.py``
 
+I will try to make a repository using Pushshift soon :)
+
 ## Features
 - Scraping subreddit data using the official Reddit API (PRAW).
 - Fairly customizable repository with scripts that can do the following: 
