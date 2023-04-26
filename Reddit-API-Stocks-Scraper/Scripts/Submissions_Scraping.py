@@ -18,13 +18,18 @@ def get_tickers():
 
 
 def subreddits(n: int=10): #Takes the top 10 subreddits by default due to rate limit
+
+
+    subreddits = [] #You can add your own subreddits here without using any subreddit csv file
+
+
     directory = os.path.join('..', 'Input_Data', 'Subreddits')
     filename = '_subreddits_2023-04-26_16-54-21' #You can specify a subreddit dataset here
     filepath = os.path.join(directory, filename)
     subreddit_list = pd.read_csv(f'{filepath}.csv') 
     subreddit_list['Subreddit'] = subreddit_list['Subreddit'].str.lower()
     top_n_subreddits = subreddit_list.sort_values('Members', ascending=False)['Subreddit'].unique()[:n]
-    return list(top_n_subreddits)
+    return subreddits if subreddits else list(top_n_subreddits)
 
 
 
