@@ -7,7 +7,7 @@ I tried as much as possible to avoid rate limitation with a cooldown within the 
 I will try to make a repository using Pushshift soon :)
 
 ## Features
-- Scraping subreddit data using the official Reddit API (PRAW).
+- Scraping subreddit data using the Python Reddit API Wrapper(PRAW).
 - Fairly customizable repository with scripts that can do the following: 
     - scrape ticker lists and relevant subreddits
     - scrapes submissions including any tickers **Beta**
