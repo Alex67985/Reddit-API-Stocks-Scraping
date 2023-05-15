@@ -19,7 +19,7 @@ I will try to make a repository using Pushshift soon :)
 ## Getting started
 ### 1. Clone the repository to your local machine.
 ```
-git clone https://github.com/Alex67985/Reddit-API-Stocks-Scraper/
+git clone https://github.com/Alex67985/Reddit-API-Stocks-Scraping/
 ```
 ### 2. Dependencies
 Make sure you install the required libraries
